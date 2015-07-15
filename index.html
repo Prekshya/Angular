@@ -1,0 +1,29 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body ng-app="" ng-init="firstname='john'" ng-init="lastname='mon'">
+    
+    <p>the name is <span ng-bind="firstname" ng-bind="lastname" ></p>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body>
+     <div ng-app="" ng-init="names=[{Name:'sima'},'simu','gelhu']">
+         <ul>
+             <li ng-repeat="x in names">{{x}}</li>
+         </ul>
+         </div>
+       
+</body>
+</html>
